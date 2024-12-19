@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Vishal Bhardwaj Personal Coach</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Vishal Bhardwaj</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over mij</a></li>
+                <li><a href="diensten.html">Diensten</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Neem Contact Op</h1>
+                <p>Laten we samen jouw reis naar persoonlijke groei starten</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Informatie</h2>
+                        <div class="info-item">
+                            <h3>Adres</h3>
+                            <p>Vishal Bhardwaj Coaching</p>
+                            <p>: A-18, Hauz khas, Near main market</p>
+                            <p>New Delhi, India 110016</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Contact</h3>
+                            <p>Tel: 020-1234567</p>
+                            <p>Email: info@vishalbhardwaj.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Openingstijden</h3>
+                            <p>Maandag - Vrijdag: 09:00 - 18:00</p>
+                            <p>Zaterdag: Op afspraak</p>
+                            <p>Zondag: Gesloten</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Stuur een Bericht</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Naam *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Telefoon</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Onderwerp *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Kies een onderwerp</option>
+                                    <option value="kennismaking">Kennismakingsgesprek</option>
+                                    <option value="coaching">Coaching traject</option>
+                                    <option value="groepscoaching">Groepscoaching</option>
+                                    <option value="other">Anders</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Bericht *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" required>
+                                    <span class="checkmark"></span>
+                                    Ik ga akkoord met de privacyverklaring
+                                </label>
+                            </div>
+
+                            <button type="submit" class="submit-button">Verstuur Bericht</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Vishal Bhardwaj Coaching</h3>
+                    <p>Address: A-18, Hauz khas, Near main market</p>
+                    <p>New Delhi, India 110016</p>
+                    <p>Tel: +91-855-533-6397</p>
+                    <p>Email: info@vishalbhardwaj.com</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">Over mij</a></li>
+                        <li><a href="diensten.html">Diensten</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
